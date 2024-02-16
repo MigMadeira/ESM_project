@@ -1,0 +1,142 @@
+B 3 C o m p i l a t i o n
+B 79185 Include File Summary
+B 79214 Equation Listing    SOLVE energy_P4_3_A80 Using MIP From line 79110
+D 79217 obj
+D 79222 energycons_P4_3_A80
+D 79233 heatcons_A80
+D 79244 boiler_install_capacity
+D 79255 grid_cost
+D 79274 boiler_cost
+B 79292 Column Listing      SOLVE energy_P4_3_A80 Using MIP From line 79110
+E 79295 Z
+E 79302 T_grid
+E 79310 T_boiler
+E 79318 x_el_grid
+E 79337 x_th_boil
+E 79359 boilerC
+B 88127 Model Statistics    SOLVE energy_P4_3_A80 Using MIP From line 79110
+B 88140 Solution Report     SOLVE energy_P4_3_A80 Using MIP From line 79110
+F 88186 obj
+F 88190 energycons_P4_3_A80
+F 96955 heatcons_A80
+F 105720 boiler_install_capacity
+F 114487 grid_cost
+F 114488 boiler_cost
+G 114495 Z
+G 114496 T_grid
+G 114497 T_boiler
+G 114503 x_el_grid
+G 123268 x_th_boil
+G 132035 boilerC
+B 132045 E x e c u t i o n
+I 132047 Z
+I 132048 x_el_grid
+I 132121 x_th_boil
+I 132195 boilerC
+I 132196 T_grid
+I 132197 T_boiler
+B 132201 Equation Listing    SOLVE energy_P4_3_A180 Using MIP From line 79130
+D 132204 obj
+D 132209 energycons_P4_3_A180
+D 132220 heatcons_A180
+D 132231 boiler_install_capacity
+D 132242 grid_cost
+D 132261 boiler_cost
+B 132279 Column Listing      SOLVE energy_P4_3_A180 Using MIP From line 79130
+E 132282 Z
+E 132289 T_grid
+E 132297 T_boiler
+E 132305 x_el_grid
+E 132324 x_th_boil
+E 132346 boilerC
+B 141114 Model Statistics    SOLVE energy_P4_3_A180 Using MIP From line 79130
+B 141127 Solution Report     SOLVE energy_P4_3_A180 Using MIP From line 79130
+F 141173 obj
+F 141177 energycons_P4_3_A180
+F 149942 heatcons_A180
+F 158707 boiler_install_capacity
+F 167474 grid_cost
+F 167475 boiler_cost
+G 167482 Z
+G 167483 T_grid
+G 167484 T_boiler
+G 167490 x_el_grid
+G 176255 x_th_boil
+G 185022 boilerC
+B 185032 E x e c u t i o n
+I 185034 Z
+I 185035 x_el_grid
+I 185108 x_th_boil
+I 185182 boilerC
+I 185183 T_grid
+I 185184 T_boiler
+B 185188 Equation Listing    SOLVE energy_P4_1_A80 Using MIP From line 79150
+D 185191 obj
+D 185196 energycons_P4_1_A80
+D 185207 heatcons_A80
+D 185218 boiler_install_capacity
+D 185229 grid_cost
+D 185248 boiler_cost
+B 185266 Column Listing      SOLVE energy_P4_1_A80 Using MIP From line 79150
+E 185269 Z
+E 185276 T_grid
+E 185284 T_boiler
+E 185292 x_el_grid
+E 185311 x_th_boil
+E 185333 boilerC
+B 194101 Model Statistics    SOLVE energy_P4_1_A80 Using MIP From line 79150
+B 194114 Solution Report     SOLVE energy_P4_1_A80 Using MIP From line 79150
+F 194160 obj
+F 194164 energycons_P4_1_A80
+F 202929 heatcons_A80
+F 211694 boiler_install_capacity
+F 220461 grid_cost
+F 220462 boiler_cost
+G 220469 Z
+G 220470 T_grid
+G 220471 T_boiler
+G 220477 x_el_grid
+G 229242 x_th_boil
+G 238009 boilerC
+B 238019 E x e c u t i o n
+I 238021 Z
+I 238022 x_el_grid
+I 238095 x_th_boil
+I 238169 boilerC
+I 238170 T_grid
+I 238171 T_boiler
+B 238175 Equation Listing    SOLVE energy_P4_1_A180 Using MIP From line 79170
+D 238178 obj
+D 238183 energycons_P4_1_A180
+D 238194 heatcons_A180
+D 238205 boiler_install_capacity
+D 238216 grid_cost
+D 238235 boiler_cost
+B 238253 Column Listing      SOLVE energy_P4_1_A180 Using MIP From line 79170
+E 238256 Z
+E 238263 T_grid
+E 238271 T_boiler
+E 238279 x_el_grid
+E 238298 x_th_boil
+E 238320 boilerC
+B 247088 Model Statistics    SOLVE energy_P4_1_A180 Using MIP From line 79170
+B 247101 Solution Report     SOLVE energy_P4_1_A180 Using MIP From line 79170
+F 247147 obj
+F 247151 energycons_P4_1_A180
+F 255916 heatcons_A180
+F 264681 boiler_install_capacity
+F 273448 grid_cost
+F 273449 boiler_cost
+G 273456 Z
+G 273457 T_grid
+G 273458 T_boiler
+G 273464 x_el_grid
+G 282229 x_th_boil
+G 290996 boilerC
+B 291006 E x e c u t i o n
+I 291008 Z
+I 291009 x_el_grid
+I 291082 x_th_boil
+I 291156 boilerC
+I 291157 T_grid
+I 291158 T_boiler

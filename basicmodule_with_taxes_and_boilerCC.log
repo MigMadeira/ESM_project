@@ -1,0 +1,322 @@
+--- Job basicmodule_with_taxes_and_boilerCC.gms Start 12/12/21 13:47:51 36.2.0 r433180e WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    E:\GAMS\36\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input "E:\MEFT\erasmus\1� semestre\Energy system modelling\Project\Group 4.2\basicmodule_with_taxes_and_boilerCC.gms"
+    PageSize 0
+    ScrDir "E:\MEFT\erasmus\1� semestre\Energy system modelling\Project\Group 4.2\225b\"
+    SysDir E:\GAMS\36\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Course License                                 S210810|0002AO-GEN
+          Technical University of Denmark, Management Engineering   DCE1508
+          E:\GAMS\36\gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+          Course license for use within the course and related course work
+Processor information: 1 socket(s), 4 core(s), and 8 thread(s) available
+GAMS 36.2.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- basicmodule_with_taxes_and_boilerCC.gms(11) 2 Mb
+--- call =xls2gms   r="Timesteps"!C3:C8762          i=Data_GroupWork.xlsx    o=set_tt.inc
+--- basicmodule_with_taxes_and_boilerCC.gms(12) 2 Mb
+--- call =xls2gms   r="Timesteps"!D2:D8762          i=Data_GroupWork.xlsx    o=set_tt_0.inc
+--- basicmodule_with_taxes_and_boilerCC.gms(15) 2 Mb
+--- call =xls2gms   r="ElectConsumption"!B6:C8765   i=Data_GroupWork.xlsx    o=par_ElectCons_P4_3_A80.inc
+--- basicmodule_with_taxes_and_boilerCC.gms(16) 2 Mb
+--- call =xls2gms   r="ElectConsumption"!D6:E8765   i=Data_GroupWork.xlsx    o=par_ElectCons_P4_3_A180.inc
+--- basicmodule_with_taxes_and_boilerCC.gms(17) 2 Mb
+--- call =xls2gms   r="ElectConsumption"!F6:G8765   i=Data_GroupWork.xlsx    o=par_ElectCons_P4_1_A80.inc
+--- basicmodule_with_taxes_and_boilerCC.gms(18) 2 Mb
+--- call =xls2gms   r="ElectConsumption"!H6:I8765   i=Data_GroupWork.xlsx    o=par_ElectCons_P4_1_A180.inc
+--- basicmodule_with_taxes_and_boilerCC.gms(21) 2 Mb
+--- call =xls2gms   r="HeatConsumption"!B4:C8763   i=Data_GroupWork.xlsx    o=par_HeatCons_A80.inc
+--- basicmodule_with_taxes_and_boilerCC.gms(22) 2 Mb
+--- call =xls2gms   r="HeatConsumption"!D4:E8763   i=Data_GroupWork.xlsx    o=par_HeatCons_A180.inc
+--- basicmodule_with_taxes_and_boilerCC.gms(25) 2 Mb
+--- call =xls2gms   r="ElectSpotPrices"!D2:E8761   i=Data_GroupWork.xlsx    o=par_ElectSpot.inc
+--- basicmodule_with_taxes_and_boilerCC.gms(33) 2 Mb
+--- . set_tt_0.inc(8772) 3 Mb
+--- basicmodule_with_taxes_and_boilerCC.gms(39) 3 Mb
+--- . set_tt.inc(8771) 4 Mb
+--- basicmodule_with_taxes_and_boilerCC.gms(50) 4 Mb
+--- . par_ElectCons_P4_3_A80.inc(8771) 4 Mb
+--- basicmodule_with_taxes_and_boilerCC.gms(56) 4 Mb
+--- . par_ElectCons_P4_3_A180.inc(8771) 5 Mb
+--- basicmodule_with_taxes_and_boilerCC.gms(62) 5 Mb
+--- . par_ElectCons_P4_1_A80.inc(8771) 5 Mb
+--- basicmodule_with_taxes_and_boilerCC.gms(68) 5 Mb
+--- . par_ElectCons_P4_1_A180.inc(8771) 5 Mb
+--- basicmodule_with_taxes_and_boilerCC.gms(74) 5 Mb
+--- . par_HeatCons_A80.inc(8771) 6 Mb
+--- basicmodule_with_taxes_and_boilerCC.gms(81) 6 Mb
+--- . par_HeatCons_A180.inc(8771) 6 Mb
+--- basicmodule_with_taxes_and_boilerCC.gms(87) 6 Mb
+--- . par_ElectSpot.inc(8771) 6 Mb
+--- basicmodule_with_taxes_and_boilerCC.gms(246) 6 Mb
+--- Starting execution: elapsed 0:00:35.122
+--- basicmodule_with_taxes_and_boilerCC.gms(79109) 7 Mb
+--- Generating MIP model energy_P4_3_A80
+--- basicmodule_with_taxes_and_boilerCC.gms(79110) 13 Mb
+---   26,283 rows  17,524 columns  52,566 non-zeroes
+---   1 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:35.904
+
+IBM ILOG CPLEX   36.2.0 r433180e Released Sep 03, 2021 WEI x86 64bit/MS Window
+
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+--- GMO setup time: 0.01s
+--- Space for names approximately 1.31 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 7.48 Mb (peak 7.61 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.64 Mb (peak 2.92 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Generic callback                                 0x50
+Tried aggregator 1 time.
+MIP Presolve eliminated 26282 rows and 17524 columns.
+All rows and columns eliminated.
+Presolve time = 0.03 sec. (13.58 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.09 sec. (16.85 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.09 sec. (16.85 ticks)
+
+--- MIP status (101): integer optimal solution.
+--- Cplex Time: 0.11sec (det. 16.90 ticks)
+
+--- Fixing integer variables and solving final LP...
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Tried aggregator 1 time.
+LP Presolve eliminated 26282 rows and 17524 columns.
+All rows and columns eliminated.
+Presolve time = 0.02 sec. (10.76 ticks)
+
+--- Fixed MIP status (1): optimal.
+--- Cplex Time: 0.05sec (det. 19.94 ticks)
+
+
+Proven optimal solution
+MIP Solution:         2090.802910    (0 iterations, 0 nodes)
+Final Solve:          2090.802910    (0 iterations)
+
+Best possible:        2090.802910
+Absolute gap:            0.000000
+Relative gap:            0.000000
+
+--- Reading solution for model energy_P4_3_A80
+--- Executing after solve: elapsed 0:00:37.732
+--- basicmodule_with_taxes_and_boilerCC.gms(79129) 13 Mb
+--- Generating MIP model energy_P4_3_A180
+--- basicmodule_with_taxes_and_boilerCC.gms(79130) 15 Mb
+---   26,283 rows  17,524 columns  52,566 non-zeroes
+---   1 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:38.013
+
+IBM ILOG CPLEX   36.2.0 r433180e Released Sep 03, 2021 WEI x86 64bit/MS Window
+
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+--- GMO setup time: 0.00s
+--- Space for names approximately 1.32 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 7.48 Mb (peak 7.61 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.64 Mb (peak 2.94 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Generic callback                                 0x50
+Tried aggregator 1 time.
+MIP Presolve eliminated 26282 rows and 17524 columns.
+All rows and columns eliminated.
+Presolve time = 0.02 sec. (13.67 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (16.94 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (16.94 ticks)
+
+--- MIP status (101): integer optimal solution.
+--- Cplex Time: 0.02sec (det. 16.99 ticks)
+
+--- Fixing integer variables and solving final LP...
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Tried aggregator 1 time.
+LP Presolve eliminated 26282 rows and 17524 columns.
+All rows and columns eliminated.
+Presolve time = 0.01 sec. (10.79 ticks)
+
+--- Fixed MIP status (1): optimal.
+--- Cplex Time: 0.03sec (det. 19.97 ticks)
+
+
+Proven optimal solution
+MIP Solution:         3523.427575    (0 iterations, 0 nodes)
+Final Solve:          3523.427575    (0 iterations)
+
+Best possible:        3523.427575
+Absolute gap:            0.000000
+Relative gap:            0.000000
+
+--- Reading solution for model energy_P4_3_A180
+--- Executing after solve: elapsed 0:00:38.288
+--- basicmodule_with_taxes_and_boilerCC.gms(79149) 15 Mb
+--- Generating MIP model energy_P4_1_A80
+--- basicmodule_with_taxes_and_boilerCC.gms(79150) 16 Mb
+---   26,283 rows  17,524 columns  52,566 non-zeroes
+---   1 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:38.573
+
+IBM ILOG CPLEX   36.2.0 r433180e Released Sep 03, 2021 WEI x86 64bit/MS Window
+
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+--- GMO setup time: 0.00s
+--- Space for names approximately 1.31 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 7.48 Mb (peak 7.61 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.64 Mb (peak 2.92 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Generic callback                                 0x50
+Tried aggregator 1 time.
+MIP Presolve eliminated 26282 rows and 17524 columns.
+All rows and columns eliminated.
+Presolve time = 0.02 sec. (13.58 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (16.85 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (16.85 ticks)
+
+--- MIP status (101): integer optimal solution.
+--- Cplex Time: 0.02sec (det. 16.90 ticks)
+
+--- Fixing integer variables and solving final LP...
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Tried aggregator 1 time.
+LP Presolve eliminated 26282 rows and 17524 columns.
+All rows and columns eliminated.
+Presolve time = 0.02 sec. (10.76 ticks)
+
+--- Fixed MIP status (1): optimal.
+--- Cplex Time: 0.03sec (det. 19.94 ticks)
+
+
+Proven optimal solution
+MIP Solution:         1959.506387    (0 iterations, 0 nodes)
+Final Solve:          1959.506387    (0 iterations)
+
+Best possible:        1959.506387
+Absolute gap:            0.000000
+Relative gap:            0.000000
+
+--- Reading solution for model energy_P4_1_A80
+--- Executing after solve: elapsed 0:00:38.880
+--- basicmodule_with_taxes_and_boilerCC.gms(79169) 16 Mb
+--- Generating MIP model energy_P4_1_A180
+--- basicmodule_with_taxes_and_boilerCC.gms(79170) 17 Mb
+---   26,283 rows  17,524 columns  52,566 non-zeroes
+---   1 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:39.193
+
+IBM ILOG CPLEX   36.2.0 r433180e Released Sep 03, 2021 WEI x86 64bit/MS Window
+
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+--- GMO setup time: 0.00s
+--- Space for names approximately 1.32 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 7.48 Mb (peak 7.61 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.64 Mb (peak 2.94 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Generic callback                                 0x50
+Tried aggregator 1 time.
+MIP Presolve eliminated 26282 rows and 17524 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (13.67 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (16.94 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (16.94 ticks)
+
+--- MIP status (101): integer optimal solution.
+--- Cplex Time: 0.02sec (det. 16.99 ticks)
+
+--- Fixing integer variables and solving final LP...
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Tried aggregator 1 time.
+LP Presolve eliminated 26282 rows and 17524 columns.
+All rows and columns eliminated.
+Presolve time = 0.02 sec. (10.79 ticks)
+
+--- Fixed MIP status (1): optimal.
+--- Cplex Time: 0.02sec (det. 19.97 ticks)
+
+
+Proven optimal solution
+MIP Solution:         3569.085520    (0 iterations, 0 nodes)
+Final Solve:          3569.085520    (0 iterations)
+
+Best possible:        3569.085520
+Absolute gap:            0.000000
+Relative gap:            0.000000
+
+--- Reading solution for model energy_P4_1_A180
+--- Executing after solve: elapsed 0:00:39.492
+--- basicmodule_with_taxes_and_boilerCC.gms(79171) 17 Mb
+*** Status: Normal completion
+--- Job basicmodule_with_taxes_and_boilerCC.gms Stop 12/12/21 13:48:31 elapsed 0:00:39.626
